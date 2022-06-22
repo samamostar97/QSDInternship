@@ -1,0 +1,111 @@
+.signupBackground {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1c658c;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.signupContainer {
+  width: 60%;
+  height: 78%;
+  background-color: #eeeeee;
+  border-radius: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.topPart {
+  display: flex;
+  flex-direction: row;
+}
+.logoSignup {
+  padding: 0;
+  margin-right: 5%;
+
+  height: 100%;
+  width: 50%;
+  margin-top: -3%;
+  object-fit: cover;
+}
+.inputSpaceSignup {
+  width: 80%;
+
+  background-color: #eeeeee;
+  border-radius: 2rem;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  padding: 8px;
+  color: #1c658c;
+  outline: none;
+  border: 2px solid #1c658c;
+  align-self: center;
+  margin-left: 5%;
+}
+
+::placeholder {
+  color: #1c658c7a;
+}
+
+.signupInputs {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+
+  align-items: center !important;
+  align-self: center !important;
+  align-content: center !important;
+
+  margin-bottom: -3%;
+}
+
+.buttonSignup {
+  width: 15%;
+  display: block;
+  margin: auto;
+  background-color: #1c658c;
+  color: #eeeeee;
+  border-radius: 2rem;
+  padding: 8px;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 0;
+}
+.buttonSignup:hover {
+  background-color: #398ab9;
+}
+.bottomPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+  height: 20%;
+  margin-top: -17%;
+  margin-left: 40%;
+}
+#underButton {
+  color: #1c658c;
+  width: 15%;
+  margin: auto;
+  align-self: center;
+  margin-top: 10px;
+  text-align: center;
+  display: block;
+}
+#accountsSignup {
+  text-decoration: none;
+  color: #1c658c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 8px;
+  width: 40%;
+}

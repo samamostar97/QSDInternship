@@ -1,0 +1,30 @@
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+  position: fixed !important;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.main
+{
+    background-color: #eeeeee;
+    max-width: 100%;
+    width: 100%;
+    padding: 0%;
+    position: fixed !important;
+}
+#left
+{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+#right
+{
+    width: 80%;
+    height: 100%;
+    float: right;
+}

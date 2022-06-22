@@ -1,0 +1,11 @@
+<div class="main">
+  <div class="imageDiv">
+      <img src="../assets/logo/iconWhite.png" alt="" routerLink="/viewEvents">
+  </div>
+  <div>
+      <button id="editProfileButton" (click)="tabChange('profile')" #profile [ngClass]="{'selectedButton':checkColor('profile'), 'sideButtons':true}">Edit Profile</button>
+      <button id="securityButton" class="sideButtons" (click)="tabChange('security')" #security [ngClass]="{'selectedButton':checkColor('security')}">Security</button>
+      <button id="eventHistoryButton" class="sideButtons" (click)="tabChange('history')" #history [ngClass]="{'selectedButton':checkColor('history')}">Event History</button>
+      <button id="signOutButton" class="sideButtons" routerLink="/viewEvents">Sign Out</button>
+  </div>
+</div>

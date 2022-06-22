@@ -1,0 +1,19 @@
+<div class="backgroundBookTickets">
+  <div class="header">
+    <app-topbar></app-topbar>
+  </div>
+  <!--<h1 id="BkTickets">{{Title}}</h1>-->
+  <div id="kontenjer" class="container">
+    <h2 id="lardz" class="title large">{{Title}}</h2>
+    <section class="book-ticket">
+      <div class="book-form">
+        <h4>{{MovieTitle}}</h4>
+        <p class="venue">{{Location}}</p>
+        <p class="price">Ticket price: <span id="price">{{TicketPrice}}</span>KM</p>
+        <p class="tickets">Number of tickets:<span id="moreTickets" class="btn btn-primary" (click)='moreTickets()'>+</span><span  id="numOfTickets">{{NumberOfTickets}}</span><span id="lessTickets" class="btn btn-primary" (click)='lessTickets()'>-</span></p>
+        <p class="price total" >Total: <span id="total">{{Total}}</span>KM</p>
+        <button (click)="bookTicket()">Book now</button>
+      </div>
+    </section>
+  </div>
+  <div>

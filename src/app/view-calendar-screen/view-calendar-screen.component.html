@@ -1,0 +1,43 @@
+<div class="all">
+<div class="backgroundEvents">
+
+    <app-topbar></app-topbar>
+    <div class="container">
+        <div class="left">
+            <div class="btn-group">
+                <div class="btn btn-primary btn-primaryAdd" mwlCalendarPreviousView [view]="view" [(viewDate)]="viewDate">
+                    Previous
+                </div>
+                <div class="btn btn-outline-secondary btn-outline-secondaryAdd" mwlCalendarToday [(viewDate)]="viewDate"
+                >
+                    Today
+                </div>
+                <div class="btn btn-primary btn-primaryAdd" mwlCalendarNextView [view]="view" [(viewDate)]="viewDate">
+                    Next
+                </div>
+            </div>
+            <mwl-calendar-month-view 
+            class="calendar"
+            [viewDate]="viewDate"
+            [events]="li"
+            [refresh]="refresh"
+            (dayClicked)="dayClicked($event.day)">
+            </mwl-calendar-month-view>
+        </div>
+        
+        <div class="right">
+            <h1>Selected date events:</h1>
+            <div class="eventCard" *ngFor="let e of testLi2;">
+                
+                <h5>{{e['title']}}</h5>
+                <h5>{{e['dateNew']}}</h5>
+                <button>Book</button>
+            </div>
+            
+        </div>
+    </div>
+    
+   
+</div>
+</div>
+

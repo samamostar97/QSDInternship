@@ -1,0 +1,11 @@
+<div class="main">
+  <div class="loginContainer">
+      <div class="imageDiv">
+        <img src="../../assets/logo/iconWhite-cropped.png" routerLink="/viewEvents"  />
+      </div>
+        <input class="inputSpace" type="text" id="username" name="username"  [(ngModel)]="Username" placeholder="Username">
+        <input class="inputSpace" type="password" id="password" name="password"  [(ngModel)]="Password" placeholder="Password">
+        <button class="buttonLogin" (click)="LogIn()">Log in</button>
+        <a class="forgotPass" routerLink="/forgotPass">Forgot your password?</a>
+  </div>
+</div>

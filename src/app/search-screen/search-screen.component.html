@@ -1,0 +1,21 @@
+<div id="contentDiv">
+    <app-topbar></app-topbar>
+    <h1 class="results">Results:</h1>
+    <div class="contentEvents">
+      
+      <div class="categoryEvents" >
+          <div class="eventCard" *ngFor="let e of testLi;">
+              <img src="../../assets/logo/iconBlue.png">
+              <h4>{{e['name']}}</h4>
+              <h5>{{e['timing']}}</h5>
+              <button>Book</button>
+          </div>
+
+
+      </div>
+
+
+  </div>
+
+  </div>
+

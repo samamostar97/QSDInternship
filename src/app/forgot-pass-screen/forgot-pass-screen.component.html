@@ -1,0 +1,10 @@
+<div class="main">
+  <div class="passwordContainer">
+      <div class="imageDiv">
+        <img src="../../assets/logo/iconWhite-cropped.png" routerLink="/viewEvents"  />
+      </div>
+        <div class="message">Forgot your password? Please enter your account's e-mail address and we will send you a recovery code.</div>
+        <input class="inputSpace" type="text" id="email" name="email" placeholder="E-mail"  [(ngModel)]="Mail">
+        <button type="submit" class="buttonConfirm" (click)="sendNewPass()">Confirm</button>
+  </div>
+</div>

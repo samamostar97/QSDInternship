@@ -1,0 +1,28 @@
+<div class="signupBackground">
+    <div class="signupContainer">
+        <div class="topPart">
+        <div class="signupInputs">
+            <input class="inputSpaceSignup" type="text" id="fName" name="fName" [(ngModel)]="firstName"  placeholder="First name">
+            <input class="inputSpaceSignup" type="text" id="lName" name="lName" [(ngModel)]="lastName" placeholder="Last name">
+        <input class="inputSpaceSignup" type="text" id="username" name="username" [(ngModel)]="Username" placeholder="Username">
+        <input class="inputSpaceSignup" type="email" id="email" name="email" [(ngModel)]="Email" placeholder="Email">
+        <input class="inputSpaceSignup" type="text" id="address" name="address" [(ngModel)]="Address" placeholder="Address">
+        <input class="inputSpaceSignup" type="text" id="phone" name="phone" [(ngModel)]="Phone" placeholder="Phone number">
+        <input class="inputSpaceSignup" type="password" id="password" name="password" [(ngModel)]="Password" placeholder="Password">
+        <input class="inputSpaceSignup" type="password" id="confirmPassword" name="confirmPassword" [(ngModel)]="confirmPassword" placeholder="Confirm password">
+        <!-- <input class="inputSpaceSignup" type="number" id="role" name="role" [(ngModel)]="Role" placeholder="Role"> -->
+        </div>
+        <img class="logoSignup" src="../../assets/logo/iconBlue.png"  />
+        </div>
+        <div class="bottomPart">
+            <button class="buttonSignup" (click)="AddUser()">Sign up</button>
+            <p id="underButton">Sign up with:</p>
+            <div id="accountsSignup">
+                <a>Google</a>
+                    <a>Facebook</a>
+                    
+                    <a>Twitter</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+<div class="main">
+  <input type="text" placeholder="Search" [(ngModel)]="searchValue">
+  <div class="list" *ngFor="let e of li | filter : searchValue : 'name'">
+    <app-single-order [event]="e" ></app-single-order>
+  </div>
+</div>

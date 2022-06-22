@@ -1,0 +1,41 @@
+<div class="backgroundOrderDetails">
+  <div class="header">
+    <app-topbar></app-topbar>
+  </div>
+  <h1 id="OrdDetails">Order Details</h1>
+  <div class="container d-flex justify-content-center">
+    <!--<h2 class="title large">Order Details</h2> -->
+
+    <div class="card w-75" id="orderDetails">
+      <div class="card-body" >
+        <h1 class="card-title" id="movieTitle">{{TicketInfo.MovieTitle}}</h1>
+        <p class="card-text">Order date: {{OrderDate | date:'dd-MM-yyyy'}}</p>
+        <p class="card-text">{{TicketInfo.Location}}</p>
+        <p class="card-text">Number of tickets: {{TicketInfo.NumberOfTickets}}</p>
+        <p class="card-text">Order total: {{TicketInfo.TotalCost}}</p>
+
+        <button class="btn btn-primary" style="display: block;
+        width: 100%;
+        max-width: 200px;
+        text-align: center;
+        border-radius: 30px;
+        padding: 7px 12px;
+        background: var(--secondaryColor);
+        /* color: var(--primaryColor); */
+        font-size: 18px;
+        margin: 0 auto;
+        margin-top: 30px;
+        outline: none !important;
+        border: 2px solid var(--secondaryColor);
+        cursor: pointer;
+        transition: all .3s ease;
+        text-decoration: none;
+        position: absolute;
+        bottom: 30px;
+        color: #1c658c;
+        right: 30px;
+        background-color: aliceblue;" (click)="buyTicket()">Buy ticket</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="main">
+  <div id="right">
+    <app-edit-profile *ngIf="tabId==='profile'"></app-edit-profile>
+    <app-edit-security *ngIf="tabId==='security'"></app-edit-security>
+    <app-event-history *ngIf="tabId==='history'"></app-event-history>
+  </div>
+  <div id="left">
+    <app-side-buttons (tabId)="changeTab($event)" [selected]="tabId"></app-side-buttons>
+  </div>
+</div>

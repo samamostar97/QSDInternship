@@ -1,0 +1,22 @@
+<div id="contentDiv">
+    <app-topbar></app-topbar>
+    <h1 class="results">Results:</h1>
+    <div class="contentEvents">
+      
+      <div class="categoryEvents" >
+          <div class="eventCard" *ngFor="let e of li;">
+             
+              <h4>{{e['name']}}</h4>
+              <h5>{{e['timing']}}</h5>
+              <button (click)="deleteEvent(e.eventID)">Delete</button>
+          </div>
+
+        
+
+
+      </div>
+      <button routerLink="/addEvents">Add event</button>
+
+  </div>
+
+  </div>

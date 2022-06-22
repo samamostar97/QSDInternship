@@ -1,0 +1,311 @@
+.backgroundBookTickets {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden !important;
+}
+#eventTitle {
+  color: #eeeeee;
+  font-size: 6mm;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.header {
+  margin-top: 0;
+  width: 100%;
+  background-color: #1c658c;
+  height: 7%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+}
+
+.eventsLogo {
+  padding: 0;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  height: 110%;
+  width: 12%;
+  object-fit: cover;
+}
+
+.headerButtons {
+  color: #eeeeee;
+  text-align: right;
+  text-decoration: none;
+  margin: auto;
+  margin-left: 1%;
+  margin-right: 2%;
+}
+
+.inputSpace {
+  width: 40%;
+  margin: auto;
+  align-self: center;
+  justify-content: center;
+  background-color: #eeeeee;
+  border-radius: 2rem;
+  padding: 8px;
+  margin-left: 30%;
+  color: #1c658c;
+  outline: none;
+  border: none;
+}
+
+.headerButtons {
+  color: #eeeeee;
+  text-align: right;
+  text-decoration: none;
+  margin: auto;
+  margin-left: 1%;
+  margin-right: 2%;
+}
+/*ovo zadnje dodato
+.BkTickets{
+  color: #1c658c;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 7%;
+}*/
+
+:root {
+  --primaryColor: #1c658c;
+  --secondaryColor: #eeeeee;
+  --thirdColor: #95b4c4;
+  --fourthColor: #d8d2cb;
+}
+/*
+body{
+  background:#eeeeee;;
+  font-size: 16px;
+}
+*/
+.title.large {
+  font-size: 36px;
+  color: #1c658c;
+  text-align: center;
+  font-weight: normal;
+  margin: 30px 0px;
+}
+
+h3.title {
+  font-size: 30px;
+  color: #1c658c;
+  text-align: left;
+  font-weight: normal;
+  margin: 30px 0px;
+}
+
+h4.title {
+  color: #1c658c;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+/* homepage start */
+
+nav {
+  background: #1c658c;
+  padding: 15px;
+}
+
+nav .link {
+  color: #fff;
+  font-size: 18px;
+  margin: 0px 7.5px;
+}
+
+nav img {
+  height: 100%;
+  max-height: 50px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+/* book ticket start */
+
+.book-form {
+  padding: 30px;
+  border-radius: 30px;
+  background: #1c658c;
+  background-color: #1c658c;
+  color: white;
+}
+
+.book-form h4.title {
+  color: #eeeeee;
+}
+.book-form p {
+  color: #eeeeee;
+  font-size: 18px;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+.book-form .info {
+  margin-bottom: 50px;
+}
+
+.book-form .price.total {
+  font-weight: bold;
+}
+
+.book-form .tickets span {
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+.book-form .tickets span#moreTickets,
+.book-form .tickets span#lessTickets {
+  background: #eeeeee;
+  color: #1c658c;
+  padding: 0px 15px;
+  border-radius: 10px;
+  width: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.book-form button {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 7px 12px;
+  background: #eeeeee;
+  color: #1c658c;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 30px;
+  outline: none !important;
+  border: 2px solid #eeeeee;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.book-form button:hover {
+  border: 2px solid #eeeeee;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 575px) {
+  .book-form .tickets span#numOfTickets {
+    margin: 0px;
+  }
+}
+
+/* book ticket end */
+
+/* order details start */
+
+.order-details {
+  padding: 30px;
+  border-radius: 30px;
+  background: var(--primaryColor);
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.order-details h4.title {
+  color: var(--secondaryColor);
+  text-align: left;
+}
+.order-details p {
+  color: var(--secondaryColor);
+  font-size: 18px;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+.order-details .price {
+  font-weight: bold;
+}
+
+.order-details #btnETicket {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 7px 12px;
+  background: var(--secondaryColor);
+  color: var(--primaryColor);
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 30px;
+  outline: none !important;
+  border: 2px solid var(--secondaryColor);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.order-details #btnETicket:hover {
+  border: 2px solid var(--primaryColor);
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 575px) {
+  .order-details #btnETicket {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    max-width: 100%;
+  }
+}
+/* order details end */
+
+/* e-ticket start */
+
+.eticket {
+  border: 1px solid #000;
+  padding: 30px;
+  position: relative;
+}
+
+.eticket h3 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.eticket p.bold {
+  font-weight: bold;
+}
+
+.eticket .qr {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+@media screen and (max-width: 575px) {
+  .eticket .qr {
+    position: relative;
+    text-align: center;
+  }
+}
+/* e-ticket end */
+
+#kontenjer{
+  margin:10% auto;
+}

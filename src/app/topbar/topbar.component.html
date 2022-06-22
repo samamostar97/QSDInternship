@@ -1,0 +1,17 @@
+<div id="bar">
+  <div id="logoDiv" routerLink="/viewEvents">
+    <img src="../assets/logo/iconWhite-cropped.png" routerLink="/viewEvents" alt="">
+  </div>
+  <div id="searchDiv">
+    <input type="text" placeholder="Search" [(ngModel)]="bindedTwoWays"
+    (keyup.enter)="sendit(bindedTwoWays)" >
+  </div>
+  <div class="sideButtons" routerLink="/editProfile" *ngIf="isLogged" >Settings</div>
+ 
+  <div class="sideButtons" routerLink="/signup" *ngIf="!isLogged" >Sign Up</div>
+  <div class="sideButtons" routerLink="/login" *ngIf="!isLogged" >Log in</div>
+  <div class="sideButtons" routerLink="/viewCalendar"  >Calendar</div>
+  
+  <div class="sideButtons" routerLink="" *ngIf="isLogged" (click)="logout()">Log out</div>
+
+</div>

@@ -1,0 +1,122 @@
+.main
+{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup
+{
+    width: 60%;
+    height: 65%;
+    background-color: white;
+    border-radius: 20px;
+}
+.info   
+{
+    width: 29.3%;
+    height: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+    background-color: #d8d2cb;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: #1c658c;
+    padding-left: 15px;
+    pointer-events: none;
+}
+.infodiv
+{
+    height: 25%;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: center;
+    align-items: center;
+}
+#buyButton
+{
+    background-color: #398AB9 !important;   
+}
+#buyButton:hover
+{
+    background-color: #eeeeee !important;    
+    color: #398AB9;
+    border: 1px solid #398AB9;
+    box-sizing: border-box;
+}
+
+#discardButton
+{
+    background-color: #eeeeee;
+    color: #398AB9;
+    border: 1px solid #398AB9;
+    box-sizing: border-box;
+}
+#discardButton:hover
+{
+    background-color: #398AB9 !important;    
+    color: #eeeeee;
+}
+
+button
+{
+    color: #eeeeee;
+    right: 0px;
+    width: 29.3%;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 20px !important;
+    background-color: #1c658c;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    height: 40%;
+}
+h1
+{
+    color: #1c658c;    
+    height: 20%;
+    font-size: 40px;
+    padding-left: 4%; 
+    margin: 0 0 0 0 !important;
+    display: flex;
+    align-items: center;
+}
+.upperLabels
+{
+    margin-right: 1%;
+    margin-left: 3%;
+    width: 29.3%;
+    font-size: 20px; 
+    color: #1c658c;
+    padding-bottom: 1%;
+    pointer-events: none;
+    display: inline-block;
+}
+#labelPrice
+{
+
+    margin-right: 0%;
+    margin-left: 3%;
+    pointer-events: none;
+    width: 100% !important;
+    font-size: 20px; 
+    color: #1c658c;
+    padding-bottom: 1%;
+    display: inline-block;
+}
+.imageDiv
+{
+    height: 30%; }
+img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    object-position: top;
+}

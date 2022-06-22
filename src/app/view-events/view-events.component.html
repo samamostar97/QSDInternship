@@ -1,0 +1,30 @@
+<div class="backgroundEvents">
+
+    <div class="header">
+    <app-topbar></app-topbar>
+    </div>
+    <h1 id="actEv">Active events</h1>
+    <div id="divH">
+        <h4>Categories</h4>
+        <h4>Filter</h4>
+    </div>
+    <div class="contentEvents">
+        <h2 class="categoryName">Cinemas</h2>
+        <div class="categoryEvents" >
+            <div class="eventCard" *ngFor="let e of li;">
+                
+
+                <h4>{{e['name']}}</h4>
+                <h5>{{e['timing']}}</h5>
+                <button  routerLink="/bookTickets" (click)="bookEvent(e.eventID)">Book</button>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>

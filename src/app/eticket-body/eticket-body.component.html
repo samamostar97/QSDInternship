@@ -1,0 +1,29 @@
+<div class="backgroundEticketDetails">
+  <div class="header">
+    <app-topbar></app-topbar>
+  </div>
+  <h1 id="OrdDetails">E-Ticket</h1>
+  <div class="container d-flex justify-content-center">
+    <!--<h2 class="title large">Order Details</h2> -->
+
+    <div class="card w-75" style="border-radius:30px">
+      <div class="card-body" >
+        <div style="background:#fff;">
+          <div class="container">
+              <div class="eticket d-flex justify-content-between" style="height: 300px;">
+                <div>
+                  <h3><strong>{{Title}}</strong></h3>
+                  <p>Order date: {{TicketInfo.OrderDate | date:'dd-MM-yyyy'}}</p>
+                  <p class="bold"><strong>{{TicketInfo.MovieTitle}}</strong></p>
+                  <p>{{TicketInfo.Location}}</p>
+                  <p>Number of tickets: <span id="numOfTickets">{{TicketInfo.NumberOfTickets}}</span></p>
+                  <p class="bold">Order total: <span id="price">{{TicketInfo.TotalCost}}</span>KM</p>
+</div>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+

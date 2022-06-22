@@ -1,0 +1,71 @@
+.backgroundEticketDetails {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+  display: block;
+  flex-direction: column;
+  overflow: hidden !important;
+  height: 100vh;
+}
+
+.header {
+  margin-top: 0;
+  width: 100%;
+  background-color: #1c658c;
+  height: 7%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+}
+
+.eventsLogo {
+  padding: 0;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  height: 110%;
+  width: 12%;
+  object-fit: cover;
+}
+
+.headerButtons {
+  color: #eeeeee;
+  text-align: right;
+  text-decoration: none;
+  margin: auto;
+  margin-left: 1%;
+  margin-right: 2%;
+}
+
+.inputSpace {
+  width: 40%;
+  margin: auto;
+  align-self: center;
+  justify-content: center;
+  background-color: #eeeeee;
+  border-radius: 2rem;
+  padding: 8px;
+  margin-left: 30%;
+  color: #1c658c;
+  outline: none;
+  border: none;
+}
+
+::placeholder {
+  color: #1c658cb0;
+}
+
+#OrdDetails {
+  color: #1c658c;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 7%;
+}
+#e-ticketbody{
+  height:300px;
+}
+.justify-content-center{
+  height:300px!important;
+  border-radius:30px!important;
+}

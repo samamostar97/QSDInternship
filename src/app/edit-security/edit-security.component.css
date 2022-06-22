@@ -1,0 +1,127 @@
+html
+{
+  background-color: red;
+}
+  form
+  {
+      margin-right: 0;
+      display: block;
+      padding-left: 33%;
+      padding-right: 30%;
+      margin-left: auto;
+      height: 100%;
+      align-items: center;
+  }
+  img
+  {
+      object-fit: contain;
+      width: 100%;
+      height: 100%;
+  }
+  .imageDiv
+  {
+      height: 30%;
+      width: 100%;
+  }
+#profileDiv
+{
+    height: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #1c658c;
+    margin-bottom: 10%;
+    margin-top: 15%;
+    margin-right: 17%;
+}
+  #profileImage
+  {
+      border-radius: 50%;
+      width: auto;
+  }
+  .formInput
+  {
+      display: block;
+      height: 6%;
+      align-items: initial;
+      margin-bottom: 4%;
+      text-align: right;
+      margin-right: 20%;
+  }
+  input
+  {
+      width: 55%;
+      background: #D8D2CB;
+      border: 1px solid #398AB9;
+      box-sizing: border-box;
+      border-radius: 10px;
+      height: 100%;
+      font-size: 20px;
+      color: #1c658c;
+      padding-left: 15px;
+      outline: none;
+  }
+  label
+  {
+      width: 40%;
+      display: inline-block;
+      font-size: 20px;
+      padding-right: 4%;
+      vertical-align: middle;
+      color: #1c658c;
+  }
+  #buttonChanges
+  {
+      display: flex;
+      height: 6%;
+      margin-right: 20%;
+      margin-top: 10%;
+  }
+  .rightButtons
+  {
+      color: #eeeeee;
+      float: right;
+      right: 0px;
+      width: 50%;
+      font-size: 15px !important;
+      background-color: #1c658c;
+      border-radius: 10px;
+      border: none;
+      display: block;
+      height: 100%;
+      position: relative;
+      font-size: 20px;
+      margin-left: 5%;
+
+  }
+  #saveButton
+  {
+      background-color: #398AB9 !important;
+  }
+  #saveButton:hover
+  {
+      background-color: #eeeeee !important;
+      color: #398AB9;
+      border: 1px solid #398AB9;
+      box-sizing: border-box;
+  }
+  #discardButton
+  {
+      background-color: #eeeeee;
+      color: #398AB9;
+      border: 1px solid #398AB9;
+      box-sizing: border-box;
+  }
+  #discardButton:hover
+  {
+      background-color: #398AB9 !important;
+      color: #eeeeee;
+  }
+  #securityButton
+  {
+      background-color: #1c658c;
+      color: #eeeeee;
+  }
+

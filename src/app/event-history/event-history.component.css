@@ -1,0 +1,22 @@
+.main
+{
+  width: 100%;
+  float: right;
+  background-color: #EEEEEE;
+  padding-top: 5%;
+  text-align: center;
+}
+input
+{
+  width: 40%;
+  border-radius: 30px;
+  padding-left: 2%;
+  background-color: #D8D2CB;
+  height: 7%;
+  font-size: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  outline: none;
+  color: #1C658C;
+}

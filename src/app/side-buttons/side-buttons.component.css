@@ -1,0 +1,65 @@
+.main
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #398AB9;
+}
+.sideButtons
+{
+    width: 60%;
+    color: #1c658c;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    border: none;
+    margin-top: 3%;
+    display: block;
+    height: 7%;
+    position: relative;
+    font-size: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.sideButtons:hover
+{
+    color: #eeeeee;
+    background-color: #1c658c;
+}
+#signOutButton
+{
+    color: #f95959;
+    position: absolute;
+    bottom: 3%;
+}
+img
+{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.imageDiv
+{
+    height: 30%;
+    width: 100%;
+}
+.selected
+{
+    color: #eeeeee;
+    background-color: #1c658c;
+}
+.selectedButton
+{
+    width: 60%;
+    color: #eeeeee;
+    background-color: #1c658c;
+    border-radius: 10px;
+    border: none;
+    margin-top: 3%;
+    display: block;
+    height: 7%;
+    position: relative;
+    font-size: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+}

@@ -1,0 +1,97 @@
+.main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.passwordContainer {
+  width: 25%;
+  height: 45%;
+  background-color: #398AB9;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.inputSpace {
+  width: 70%;
+  height: 15%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 3%;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  padding-left: 4%;
+  color: #398AB9;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+.inputSpace:active {
+  background-color: #d8d2cb;
+}
+::placeholder {
+  color: #1c658c7a;
+}
+.forgotPass {
+  color: #eeeeee;
+  font-size: 15px;
+  text-align: left;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+.buttonConfirm {
+  width: 30%;
+  height: 15%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  background-color: #eeeeee;
+  color: #398AB9;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+.buttonConfirm:hover {
+  background-color: #d8d2cb;
+}
+.imageDiv
+{
+  width: 100%;
+  height: 20%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  display: flex;
+  float: left;
+  justify-content: left;
+  align-items:center;
+}
+img
+{
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+img:hover
+{
+  cursor: pointer;
+}
+.message
+{
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 5%;
+  font-size: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #eeeeee;
+}

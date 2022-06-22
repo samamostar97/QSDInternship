@@ -1,0 +1,51 @@
+<div class="backgroundAddEvents">
+    <div class="header">
+        <app-topbar></app-topbar>
+    </div>
+    
+    <div class="content" >
+    
+<div class="right">
+   
+    
+    <div class="btn-group">
+        
+        <div class="btn btn-outline-secondary btn-outline-secondaryAdd" mwlCalendarToday [(viewDate)]="viewDate">
+            Current month
+        </div>
+        <div class="btn btn-primary btn-primaryAdd" mwlCalendarNextView [view]="view" [(viewDate)]="viewDate">
+            Next month
+        </div>
+    </div>
+    <mwl-calendar-month-view 
+    class="calendar"
+    [viewDate]="viewDate"
+    (eventClicked)="eventClicked($event)"
+    (dayClicked)="dayClicked($event.day)">
+    </mwl-calendar-month-view>
+   
+<ngx-material-timepicker #picker></ngx-material-timepicker>
+
+</div>
+<div class="left">
+   
+    <input class="inputSpace3" type="text" id="date" name="date" [(ngModel)]="Date"   readonly>
+    <h4>Date</h4>
+    <input class="inputSpace3" [ngxTimepicker]="picker" [(ngModel)]="Timing"  readonly>
+    <h4>Timing</h4>
+  
+    <input class="inputSpace3" type="text" id="name" name="name" [(ngModel)]="Name"   placeholder="">
+    <h4>Name</h4>
+    <input class="inputSpace3" type="text" id="venue" name="venue" [(ngModel)]="VenueName" placeholder="">
+    <h4>Venue</h4>
+    
+    <input class="inputSpace3" type="number" id="price" name="price" [(ngModel)]="Price"   placeholder="">
+    <h4>Price</h4>
+    <input class="inputSpace3" type="number" id="numTickets" name="numTickets" [(ngModel)]="NumberOfTickets" placeholder="">
+    <h4>Number of tickets</h4>
+    <button class="btn btn-primary btn-primaryAdd2" (click)="AddEvent()">+ Add event</button>
+</div>
+</div>
+
+
+</div>
